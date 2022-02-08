@@ -1,0 +1,127 @@
+/* ********************** fonts css starts********************** */
+/* custom fonts starts */
+/* @font-face {
+  font-family: SourceSerif4-Medium;
+  src: url(/fonts/SourceSerif4-Medium.ttf);
+} */
+
+/* h1 {
+  font-family: SourceSerif4-Medium;
+} */
+
+/* custom font ends */
+
+/* google font use starts */
+/* p {
+  font-family: "Festive", cursive;
+} */
+
+/* google fonts ends */
+
+/* ************************** fonts css ends ***************************** */
+
+/* ********************** text styling starts ************************** */
+/* 
+h1 {
+  font-family: "Festive", cursive;
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: line-through;
+}
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  color: goldenrod;
+  text-align: justify;
+  text-indent: 20px;
+} */
+
+/* ********************* text styling Ends ************************** */
+
+/* ******************** Selectors starts ********************** */
+
+/* universal selectors */
+/* * {
+  padding: 0;
+  margin: 0;
+} */
+/* tag selectors */
+/* h1 {
+  color: green;
+} */
+/* calss selectors */
+/* .pera {
+  color: red;
+  font-size: 20px;
+  padding: 20px;
+} */
+/* Id selectors */
+/* #second {
+  color: green;
+  text-align: center;
+  line-height: 35px;
+} */
+/* attribute selectors */
+/* [type] {
+  color: green;
+  padding: 20px;
+  background-color: black;
+} */
+
+/* ******************* Selectors ends ************************ */
+
+/* ********************* Css Combinator Starts ************************* */
+
+/* general sibling selector (~) */
+/* p ~ h1 {
+  color: red;
+} */
+/* Adjacent Selectors (+) */
+/* p + h1 {
+  color: aquamarine;
+} */
+/* Child Selector (>) */
+/* .baba > h1 {
+  font-size: 50px;
+  color: burlywood;
+} */
+/* Descendant Selectors (space) */
+/* .baba h1 {
+  color: blue;
+  font-style: italic;
+} */
+
+/* *********************** Css Combinator Ends ************************ */
+
+/* *************** css specificity starts ***************** */
+/* 0 0 1 0 */
+.details {
+  color: blue;
+}
+/* 0 0 1 2 */
+div > p.details {
+  color: green;
+}
+
+/* 0 1 0 0 */
+#heading {
+  color: grey;
+}
+/* 0 0 0 1 */
+h1 {
+  color: blue;
+}
+
+/* 0 0 1 0 */
+.peter {
+  font-size: 100px;
+}
+/* 0 0 0 6 */
+div > div > div > div > div > p {
+  font-size: 50px;
+}
+
+/* *************** css specificity ends ***************** */
