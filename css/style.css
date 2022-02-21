@@ -97,31 +97,56 @@ p {
 /* *********************** Css Combinator Ends ************************ */
 
 /* *************** css specificity starts ***************** */
-/* 0 0 1 0 */
-.details {
+
+/* .details {
   color: blue;
 }
-/* 0 0 1 2 */
+
 div > p.details {
   color: green;
 }
 
-/* 0 1 0 0 */
+
 #heading {
   color: grey;
 }
-/* 0 0 0 1 */
+
 h1 {
   color: blue;
 }
 
-/* 0 0 1 0 */
 .peter {
   font-size: 100px;
 }
-/* 0 0 0 6 */
+
 div > div > div > div > div > p {
   font-size: 50px;
-}
+} */
 
 /* *************** css specificity ends ***************** */
+
+/* ********************** Css Inheritance Starts ************************** */
+
+/* ********************** Css Inheritance ends ************************** */
+
+/* ********************** Css Box Model Starts ************************** */
+/*
+padding 
+margin
+border
+block element 
+inline block 
+inline element
+box sizing 
+margin collaps 
+
+*/
+/* ********************** Css Box Model ends ************************** */
+
+/* ********************** Css units Starts ************************** */
+/*
+absolute unit => px mm pt pc in q
+relative unite => em , rem ,vh, vw, %
+
+*/
+/* ********************** Css units ends ************************** */
